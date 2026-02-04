@@ -1,0 +1,81 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+:root {
+    --bg-dark: #020617;
+    --neon: #22d3ee;
+    --text-light: #f8fafc;
+}
+
+.header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 6rem 1.5rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero span {
+    color: var(--neon);
+}
+
+.btn {
+    display: inline-block;
+    background: var(--neon);
+    color: #000;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.benefits {
+    padding: 4rem 0;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    flex: 1;
+}
